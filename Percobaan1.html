@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room PENS</title>
+</head>
+<body class="bg-white">
+    <nav class="bg-gradient-to-r from-teal-600 to-blue-800 p-4 flex items-center justify-between">
+        <img src="https://x.com/Goingkebab/status/1902234158526783789/photo/1" alt="LOGO ROOM PENS" class="h-12 w-auto">
+        
+        <div class="hidden md:flex space-x-6">
+            <a href="#" class="text-white px-3 py-2 rounded-full hover:bg-gray-700 font-semibold">Home</a>
+            <a href="#" class="text-white px-3 py-2 rounded-full hover:bg-gray-700 font-semibold">Schedule</a>
+            <a href="#" class="text-white px-3 py-2 rounded-full hover:bg-gray-700 font-semibold">Reservation</a>
+            <a href="#" class="text-white px-3 py-2 rounded-full hover:bg-gray-700 font-semibold">Information</a>
+        </div>
+
+        <div class="flex items-center space-x-4">
+            <button class="bg-red-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-red-700">Sign in</button>
+            <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
+                <span class="text-gray-600 text-xl">&#128100;</span>
+            </div>
+            <button class="md:hidden text-white text-3xl">&#9776;</button>
+            <button class="text-white text-2xl">&#128276;</button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://www.pens.ac.id/wp-content/uploads/2018/04/image-25.jpg" class="w-full h-120">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://nandhitaglow.wordpress.com/wp-content/uploads/2015/11/dsc09812.jpg" class="w-full h-120">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://i.ytimg.com/vi/NKAfpMHZFOA/hq720.jpg" class="w-full h-120">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="text-center mt-2">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </header>
+
+    <section class="max-w-5xl mx-auto mt-4 p-8 md:p-12">
+        <h2 class="text-center text-2xl font-bold text-gray-900">ABOUT US</h2>
+        <p class="mt-4 text-gray-900 text-justify font-semibold">
+            ROOM PENS adalah platform reservasi ruangan yang dirancang untuk mempermudah mahasiswa, dosen, dan staf dalam mengelola peminjaman ruangan di Politeknik Elektronika Negeri Surabaya (PENS). Kami hadir sebagai solusi praktis dan efisien untuk memastikan setiap ruangan dapat dimanfaatkan secara optimal. Dengan sistem yang terstruktur dan mudah digunakan, pengguna dapat melihat jadwal ketersediaan ruangan secara real-time serta melakukan reservasi dengan cepat. Melalui ROOM PENS, kami berkomitmen untuk meningkatkan efisiensi dalam pengelolaan fasilitas kampus, sehingga setiap kegiatan akademik maupun non-akademik dapat berjalan dengan lebih nyaman dan terorganisir.        </p>
+    </section>
+
+    <section class="max-w-6xl mx-auto mb-8 grid grid-cols-1 md:grid-cols-3 gap-3 px-6">
+        <div class="bg-white flex flex-col items-center text-center p-4">
+            <button class="mt-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5">Schedule</button>
+            <p class="mt-2">Lihat jadwal ruangan yang tersedia di sini.</p>
+        </div>
+        <div class="bg-white flex flex-col items-center text-center p-4">
+            <button class="mt-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5">Reservation</button>
+            <p class="mt-2">Reservasi ruangan kelas atau teater.</p>
+        </div>
+        <div class="bg-white flex flex-col items-center text-center p-4">
+            <button class="mt-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5">Information</button>
+            <p class="mt-2">Informasi persyaratan dan alur reservasi.</p>
+        </div>
+    </section>
+
+    <footer class="text-white bg-gradient-to-r from-teal-600 to-blue-800 p-10">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
+            <div>
+                <img src="https://x.com/Goingkebab/status/1902234158526783789/photo/1" alt="logo RP" class="h-12 w-auto">
+                <p>Kelola ruangan lebih efisien</p>
+                <div class="flex gap-2 mt-2">
+                    <span class="text-xl">📞</span>
+                    <span class="text-xl">✉</span>
+                    <span class="text-xl">📍</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-semibold text-white">Informasi</h3>
+                <p>Room PENS - Platform peminjaman dan reservasi ruangan untuk lingkungan PENS yang lebih efisien dan terorganisir.</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-white">Navigation</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">Schedule</a></li>
+                    <li><a href="#" class="hover:underline">Reservation</a></li>
+                    <li><a href="#" class="hover:underline">Information</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-white">Contact</h3>
+                <p>Politeknik Elektronika Negeri Surabaya (PENS), Surabaya, Indonesia</p>
+                <p>contact@roompens.ac.id</p>
+                <p>+62 812-3456-7890</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
